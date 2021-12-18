@@ -1,0 +1,663 @@
+*{
+	font-family: aaa;
+}
+
+@font-face
+
+{
+	font-family:aaa;
+	src:url('../www.ttf');
+}
+h1
+{
+	font-family:"aaa";
+}
+.img
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.7;
+  background-color: #fff;
+  z-index: 99;
+  text-align: center;
+
+}
+
+#loading-image {
+  position: absolute;
+  top: 400px;
+  left: 880px;
+  z-index: 100;
+
+}
+
+#banner3{
+  background:linear-gradient(to bottom,rgba(250,250,250,0.2), rgba(250,250,250,0.2)100%),url(../bb.jpg);
+  width:100%;
+  height:800px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#banner{
+  background:linear-gradient(to bottom,rgba(255,255,255,.0)0, rgba(255,255,255,.0)100%),url(../bb.jpg);
+  width:100%;
+  height:600px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+
+#banner2{
+  background:linear-gradient(to bottom,rgba(255,255,255,.0)0, rgba(255,255,255,.0)100%),url(../ss.jpg);
+  width:100%;
+  height:400px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+#navtitle
+{
+  padding-top: 180px;
+
+}
+#divider{
+  max-width:20.25rem;
+  border-width:0.1rem;
+  border-color:#FFC300;
+}
+#contactbtn{
+  padding:2rem 4.25rem;
+  font-size: 1rem;
+  font-weight: 300;
+  border:white;
+  border-radius:3rem;
+  background-color:white ;
+  color:white;
+}
+#counter{
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(image/6.jpg);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  padding:35px;
+}
+#letter{
+  position:absolute;
+  top:5%;
+  left:20%;
+  font-size:20px;
+  background-color:rgba(255,255,255,0.5);
+  padding:10px 50px;
+  display:block;
+  text-align:center;
+}
+nav.scrolled{
+  background-color: rgb(247, 247, 247);
+  height: 70px;
+  padding-top: 30px;
+}
+
+#banner1{
+ 
+  width:100%;
+  height:100px;
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#navtitle1
+{
+  padding-top: 110px;
+}
+
+#contactbtn1{
+  padding:1.25rem 2.25rem;
+  border-radius:10rem;
+  background-color:#f9b940;
+  color:white;
+}
+
+#font{
+  color: #FFC300 ;
+}
+.div-1 {
+        background-color: #EBEBEB;
+        width: 100%;
+        height: auto;
+        padding-bottom: 40px;
+    }
+
+    #cool
+    {
+      color: white;
+    }
+
+
+#card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.1), 0 0 6px rgba(0,0,0,.2);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+ 
+  cursor: pointer;
+}
+
+#card:hover{
+     transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+#apply{
+  padding-top: 40px;
+}
+
+#heading{
+  padding-top: 50px;
+}
+#recent{
+  padding-top: 30px;
+}
+#heading2{
+  color: #FFC300;
+}
+#carousel{
+  height: 400px;
+}
+
+.button1 {
+  background-color:#EBEBEB; 
+  color: black; 
+  border: 0px solid #FFC300;
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
+
+}
+
+.button1:hover {
+  background-color:#f9b940;
+  color: white;
+}
+
+.buttonc {
+  background-color:#EBEBEB; 
+  color: black; 
+  border: 0px solid #FFC300;
+  border-radius: 50%;
+  width:150px;
+  height: 150px;
+
+}
+
+.buttonc:hover {
+  background-color:grey;
+  color: white;
+  }
+
+
+.footer {
+        background-color: #EBEBEB;
+        width: 100%;
+        height: auto;
+        padding-bottom:20px;
+    }
+  
+  #foot{
+    padding-top: 40px;
+  }
+  #foot1{
+    color:black;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  #foot1:hover{
+  color:#f9b940;
+  
+}
+
+  #foot2{
+    padding-top: 30px;
+  }
+  .footer2 {
+    background-color: #B0B0AE;
+        width: 100%;
+        height: auto;
+        padding-bottom:10px;
+  }
+  #foot3{
+    padding-top: 30px;
+  }
+  #foot4{
+    padding-top: 30px;
+    padding-left: 20px;
+
+  }
+  .body1{
+ background-color: #f9b940;
+        width: 100%;
+        height: auto;
+        padding-bottom:30px;
+  }
+  #body2{
+    padding-top:25px;
+    color:white;
+  }
+  #sss{
+    color:#FFC300; 
+    font-size: 20px;
+  }
+  #btn2{
+    padding-top: 30px;
+  }
+  .responsive {
+  width: 100%;
+  height: auto;
+}
+.img{
+  width:50px;
+  height: auto;
+}
+
+/*.foo img:last-child{display:none}
+.foo:hover img:first-child{display:none}
+.foo:hover img:last-child{display:inline-block}
+*/
+.form {
+  width: 100%;
+  padding: 8px 8px;
+  margin: auto;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+}
+
+#btn
+{
+  padding:0.5rem 4.25rem;
+  border-radius:10rem;
+  background-color:#f9b940;
+  color:white;
+  font-size: 30px;
+  border: 0px;
+
+
+}
+
+#map{
+padding-top: 60px;
+
+padding-bottom: 40px;
+
+}
+
+
+
+#training{
+  padding-top: 60px;
+  padding-bottom: 90px;
+}
+#line{
+   max-width:25.25rem;
+  border-width:0.2rem;
+  border-color:black;
+}
+
+.label{
+  background-color: #EBEBEB;
+  color: white;
+  padding: 0.5rem;
+  font-family: sans-serif;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  margin-top: 1rem;
+  border-radius: 50%;
+  padding-top: 30px;
+  padding-bottom:30px; 
+  padding-left:35px;
+  padding-right:35px;
+}
+.label:hover{
+  transform: scale(1.05);
+  background-color:#f9b940;
+  
+}
+.label2{
+  padding-top: 55px;
+}
+
+
+#btn2
+{
+  padding:0.5rem 2.25rem;
+  border-radius:10rem;
+  background-color:#f9b940;
+  color:white;
+  font-size: 14px;
+  border: 0px;
+}
+#save
+{
+  padding-bottom: 50px;
+  padding-top: 50px;
+}
+#card2{
+  
+  border-width: 3px;
+  border-color: #EBEBEB;
+}
+#heading3
+{
+  padding-bottom: 30px;
+}
+
+
+
+
+.radio {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default radio button */
+.radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* Create a custom radio button */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+
+/* On mouse-over, add a grey background color */
+.radio:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the radio button is checked, add a blue background */
+.radio input:checked ~ .checkmark {
+  background-color: #f9b940;
+}
+
+/* Create the indicator (the dot/circle - hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the indicator (dot/circle) when checked */
+.radio input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the indicator (dot/circle) */
+.radio .checkmark:after {
+  top: 9px;
+  left: 9px;
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  background: white;
+}
+
+.job{
+  padding-bottom:20px;
+}
+
+#job{
+  padding-bottom: 100px;
+}
+#fade{
+  color:grey;
+}
+fa-heart {
+  color: red;
+  cursor: pointer;
+
+}
+
+.fa-heart {
+  color: red;
+  cursor: pointer;
+   padding-top: 15px;
+}
+#btn3
+{
+  padding:0.8rem 2.25rem;
+  border-radius:10rem;
+  background-color:#EBEBEB;
+  color:black;
+  font-size: 14px;
+  border: 0px;
+}
+#btn3:hover
+{
+   background-color:#f9b940;
+}
+
+#card3{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.1), 0 0 6px rgba(0,0,0,.2);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  cursor: pointer;
+
+}
+
+#card3:hover{
+     transform: scale(1.05);
+     box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+  
+}
+.fa-calendar-alt{
+  padding-top:9px;
+}
+.calendar{
+  padding-top: 15px;
+}
+.kan{
+  padding-bottom: 20px;
+}
+#job2{
+  padding-bottom: 10px;
+}
+.img {
+  position: relative;
+  width: 50%;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.img:hover .image {
+  opacity: 0.3;
+}
+
+.img:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  
+  color: black;
+  font-size: 13px;
+  padding-top: 3px;
+  padding-left: 20px;
+}
+
+#hbtn{
+  padding-top: 33px;
+}
+
+#detail{
+  padding-top: 15px;
+}
+
+#detail1{
+padding-top: 35px;
+}
+
+#detail2{
+padding-top: 40px;
+}
+#detail3{
+padding-left : 100px;
+padding-top: 30px;
+}
+
+#btn4
+{
+  padding:0.9rem 2.25rem;
+  border-radius:10rem;
+  background-color:#EBEBEB;
+  color:white;
+  font-size: 20px;
+  border: 0px;
+}
+#btn4:hover
+{
+   background-color:#f9b940;
+}
+
+
+
+#divider3{
+  max-width:100%;
+  border-width:0.1rem;
+  border-color:#FFC300;
+}
+
+#requirement{
+  padding-top: 20px;
+}
+
+.skill{
+ padding:0.1rem 1.25rem; 
+ text-align: center;
+ border:1px solid;
+ border-radius: 15px;
+ font-size: 24px;
+}
+.skillwrap{
+  padding-top: 20px;
+}
+.c1{
+  padding-top: 30px;
+}
+.c2{
+  font-size: 24px;
+  padding-left: 20px;
+}
+
+#c4{
+  padding-bottom: 40px;
+  
+}
+
+#card1{
+  border-radius: 20px;
+  
+  
+}
+#imgpadding
+{
+  padding-top: 20px;
+}
+.red{
+  color: red;
+}
+
+
+
+#company2{
+  border-radius: 30px;
+}
+
+ input.transparent-input{
+       background-color:rgba(0,0,0,0) !important;
+       border:1px solid;
+       border-radius: 50px;
+       border-color:#f9b940 
+
+    }
+
+
+#btnregister
+{
+  padding:0.2rem 2.25rem;
+  border-radius:10rem;
+  background-color:#f9b940;
+  color:#f9b940;
+  font-size: 25px;
+ border:1px solid;
+ border-color:#f9b940 
+}
+
+#btnlogin{
+  padding:0.2rem 2.25rem;
+  border-radius:10rem;
+  background-color:#f9b940;
+  color:white;
+  font-size: 25px;
+ border:1px solid;
+ border-color:#f9b940 
+}
+
+.div-3 {
+        background-color: #F3F3F1;
+        width: 100%;
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .lorem{
+      padding-top: 50px;
+    }
+    .lorem2{
+      padding-left: 250px;
+    }
+
+   
